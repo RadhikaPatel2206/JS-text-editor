@@ -1,0 +1,45 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-size: cover;
+  font-family: 'Comic Neue', cursive, 'Roboto', sans-serif;
+}
+
+body div label {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.banner {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#text-output {
+  min-height: 400px;
+  border-radius: 3px;
+  padding: 10px;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+#text-input {
+  min-height: 400px;
+}
+
+.editor .col {
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
